@@ -47,7 +47,8 @@
 								<goal>test-compile</goal>
 							</goals>
 						</execution>
-					</executions><dependencies>
+					</executions><!--
+					<dependencies>
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>
@@ -66,7 +67,7 @@
             <systemPath>${project.basedir}/pom.xml</systemPath>
         </dependency>
     </dependencies>
-
+-->
 
 				</plugin>
 
