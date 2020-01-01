@@ -47,7 +47,27 @@
 								<goal>test-compile</goal>
 							</goals>
 						</execution>
-					</executions>
+					</executions><dependencies>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.8.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjtools</artifactId>
+            <version>1.8.13</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <version>1.8</version>
+            <scope>system</scope>
+           <!-- <systemPath>${project.basedir}/pom.xml</systemPath>-->
+        </dependency>
+    </dependencies>
+
+
 				</plugin>
 
 				<plugin>
