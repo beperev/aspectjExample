@@ -63,7 +63,7 @@
             <artifactId>tools</artifactId>
             <version>1.8</version>
             <scope>system</scope>
-           <!-- <systemPath>${project.basedir}/pom.xml</systemPath>-->
+            <systemPath>${project.basedir}/pom.xml</systemPath>
         </dependency>
     </dependencies>
 
