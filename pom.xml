@@ -48,8 +48,8 @@
 							</goals>
 						</execution>
 					</executions>
-					<dependencies>
-      <!--  <dependency>
+					  <!-- <dependencies>
+     <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>
             <version>1.8.13</version>
@@ -58,7 +58,7 @@
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjtools</artifactId>
             <version>1.8.13</version>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>com.sun</groupId>
             <artifactId>tools</artifactId>
@@ -66,7 +66,7 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/pom.xml</systemPath>
         </dependency>
-    </dependencies>
+    </dependencies>-->
 
 
 				</plugin>
