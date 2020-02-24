@@ -49,20 +49,7 @@
 			<artifactId>aspectjrt</artifactId>
 			<version>${aspectj.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>debug</groupId>
-			<artifactId>debug</artifactId>
-			<version>1.0.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/debug.jar</systemPath>
-		</dependency>
-		<dependency>
-			<groupId>pr4</groupId>
-			<artifactId>pr4</artifactId>
-			<version>1.0.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/pr4.jar</systemPath>
-		</dependency>
+	
 	</dependencies>
 
 	<properties>
