@@ -16,7 +16,7 @@ public class AspectoCuenta {
     }
  
   @Before("within(ejemplo.aspectos.Cuenta)")
-    public void beforeAdvice() {
+    public void beforeAdvice2() {
     System.out.println("Hello2");
     }
  
